@@ -1,5 +1,3 @@
-body{
-    background-color: crimson;
-    font-style: bold;
-    margin: auto;
+.my-id {
+    font-weight: bold;
 }
