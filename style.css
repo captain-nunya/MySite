@@ -1,3 +1,47 @@
-.my-id {
-    font-weight: bold;
+.absolute-pos{
+    position: absolute;
+    background-color: aqua;
+}
+.relative-pos{
+    z-index: 1;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 900px;
+    width: 200px;
+    left: 30px;
+    top: 30px;
+}
+.fixed-pos{
+    
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 15;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(1, 63, 63);
+    padding: 20px;
+    display: flex;
+    font-size: x-large;
+    box-shadow: rgba(0, 0, 0, 0.16) 
+    0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 
+    0px 0px 0px 1px;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+}
+.sticky-pos{
+    z-index: 10;
+    position: sticky;
+    background-color: blueviolet;
+    top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type:none ;
+    
+}
+
+.sticky-pos > li {
+    padding: 10px 10px 10px;
+
 }
